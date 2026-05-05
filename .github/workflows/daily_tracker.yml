@@ -2,8 +2,8 @@ name: Daily USD/IDR Rate Tracker
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # runs every day at 08:00 UTC
-  workflow_dispatch:       # lets you trigger it manually too
+    - cron: '0 9 * * *'
+  workflow_dispatch:
 
 jobs:
   track:
